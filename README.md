@@ -21,8 +21,8 @@
 
 <br>
 
-<img align="center" src="ReadMeImgs/mainpage1.jpg" />
-<img align="center" src="ReadMeImgs/mainpage2.jpg" />
+<img align="center" style="display:flex" src="ReadMeImgs/mainpage1.jpg" />
+<img align="center" style="display:flex" src="ReadMeImgs/mainpage2.jpg" />
 
 <br>
 
