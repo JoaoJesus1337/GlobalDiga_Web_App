@@ -21,8 +21,7 @@
 
 <br>
 
-<img align="top" style="display:flex" src="ReadMeImgs/mainpage1.jpg" />
-<img align="top" style="display:flex" src="ReadMeImgs/mainpage2.jpg" />
+<img align="top" style="display:flex" src="ReadMeImgs/mainpage.png" />
 
 <br>
 
@@ -30,8 +29,7 @@
 
 <br>
 
-<img align="center" src="ReadMeImgs/productdetail.jpg" />
-<img align="center" src="ReadMeImgs/productdetail2.jpg" />
+<img align="center" src="ReadMeImgs/productdetail.png" />
 
 <br>
 
@@ -39,11 +37,7 @@
 
 <br>
 
-<img align="center" src="ReadMeImgs/produtos1.jpg" />
-<img align="center" src="ReadMeImgs/produtos2.jpg" />
-<img align="center" src="ReadMeImgs/produtos3.jpg" />
-<img align="center" src="ReadMeImgs/produtos4.jpg" />
-<img align="center" src="ReadMeImgs/produtos5.jpg" />
+<img align="center" src="ReadMeImgs/produtos.png" />
 
 <br>
 
@@ -51,8 +45,7 @@
 
 <br>
 
-<img align="center" src="ReadMeImgs/login1.jpg" />
-<img align="center" src="ReadMeImgs/login2.jpg" />
+<img align="center" src="ReadMeImgs/login.png" />
 
 <br>
 
@@ -60,9 +53,7 @@
 
 <br>
 
-<img align="center" src="ReadMeImgs/registo1.jpg" />
-<img align="center" src="ReadMeImgs/registo2.jpg" />
-<img align="center" src="ReadMeImgs/registo3.jpg" />
+<img align="center" src="ReadMeImgs/registo.png" />
 
 <br>
 
@@ -70,8 +61,7 @@
 
 <br>
 
-<img align="center" src="ReadMeImgs/carrinho1.jpg" />
-<img align="center" src="ReadMeImgs/carrinho2.jpg" />
+<img align="center" src="ReadMeImgs/carrinho.png" />
 
 <br>
 
@@ -79,8 +69,7 @@
 
 <br>
 
-<img align="center" src="ReadMeImgs/metodosdepagamento1.jpg" />
-<img align="center" src="ReadMeImgs/metodosdepagamento2.jpg" />
+<img align="center" src="ReadMeImgs/metodosdepagamento.png" />
 
 <br>
 
@@ -97,7 +86,6 @@
 <br>
 
 <img align="center" src="ReadMeImgs/fatura2.jpg" />
-<img align="center" src="ReadMeImgs/fatura3.jpg" />
 
 <br>
 
@@ -105,8 +93,7 @@
 
 <br>
 
-<img align="center" src="ReadMeImgs/user1.jpg" />
-<img align="center" src="ReadMeImgs/user2.jpg" />
+<img align="center" src="ReadMeImgs/user.png" />
 
 <br>
 
@@ -140,8 +127,7 @@
 
 <br>
 
-<img align="center" src="ReadMeImgs/productsback1.jpg" />
-<img align="center" src="ReadMeImgs/productsback2.jpg" />
+<img align="center" src="ReadMeImgs/productsback.png" />
 
 <br>
 
@@ -181,7 +167,6 @@
 
 <br>
 
-<img align="center" src="ReadMeImgs/empresa1.jpg" />
-<img align="center" src="ReadMeImgs/empresa2.jpg" />
+<img align="center" src="ReadMeImgs/empresa.png" />
 
 <br>
