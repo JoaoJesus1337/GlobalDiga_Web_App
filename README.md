@@ -170,3 +170,13 @@
 <img align="center" src="ReadMeImgs/empresa.png" />
 
 <br>
+
+<br>
+
+# CO-Authors
+
+<br>
+
+[@RodrigoCarreira](https://github.com/RFCarreira33)
+
+[@JoaoFerreira](https://github.com/JPTRON)
