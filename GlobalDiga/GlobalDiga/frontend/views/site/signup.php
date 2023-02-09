@@ -12,7 +12,7 @@ $this->title = 'Registar-se';
 <div class="site-signup" style="text-align: center;">
     <br>
     <div class=" row">
-        <div class="col-lg-5" style="max-width: 500px;margin: auto;border: 2px solid black;margin-bottom: 50px;background-color:#111;border-radius: 25px;">
+        <div class="col-lg-5" style="max-width: 500px;margin: auto;border: 2px solid black;margin-bottom: 50px;background-color:#333;border-radius: 25px;">
             <br>
             <h2 style="color: white;"><?= Html::encode($this->title) ?></h2>
 

@@ -86,7 +86,7 @@ foreach ($carrinhos as $carrinho) {
                                                 <div class="card-body">
                                                     <div class="mb-1">
                                                         <div class="input">
-                                                            <input type="radio" name="shipping" id="" value="Loja" checked required>
+                                                            <input type="radio" name="shipping" id="loja" value="Loja" required>
                                                             <i class="fa fa-store"></i>
                                                             <span class="font-weight-normal card-text">Levantamento em
                                                                 Loja</span>
@@ -95,14 +95,11 @@ foreach ($carrinhos as $carrinho) {
 
                                                     <div class="mt-1">
                                                         <div class="input">
-                                                            <input type="radio" name="shipping" id="" value="Morada" required>
+                                                            <input type="radio" name="shipping" id="casa" value="Morada" required>
                                                             <i class="fa fa-house"></i>
                                                             <span class="font-weight-normal card-text">Entrega ao
                                                                 Domicílio</span>
-                                                            <input id="morada" type="text" class="form-control" placeholder="Morada" value="<?= $morada ?>">
-                                                            <br>
-                                                            <br>
-                                                            <a href="<?= Url::toRoute("dados/update") ?>" class="col btn btn-dark btn-block btn-lg" style="display:flex;justify-content:center;text-align:center;">Editar Morada</a>
+                                                            <input id="morada" name="morada" type="text" class="form-control" placeholder="Morada" value="<?= $morada ?>">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -210,6 +207,24 @@ foreach ($carrinhos as $carrinho) {
 </section>
 
 <script>
+    //diseable radios
+    var check = $("#loja");
+    var check2 = $("#casa");
+
+    $("#loja").on('click', checkStatus);
+    $("#casa").on('click', checkStatus);
+
+    function checkStatus() {
+
+        if (check.is(':checked')) {
+            $("#morada").prop('disabled', true);
+        }
+        if (check2.is(':checked')) {
+            $("#morada").prop('disabled', false);
+        }
+
+    }
+
     var timer;
 
     $("input:radio[name='shipping']").click(function(e) {

@@ -10,7 +10,7 @@ class NewsController extends Controller
 {
     public static function getAPIKey()
     {
-        return 'pub_15468b7ddef627740403843882f28d8c2c9a8';
+        return 'pub_13552a7e7bb7e78f5ad68779b52d0ea763921';
     }
 
     public function actionIndex()
