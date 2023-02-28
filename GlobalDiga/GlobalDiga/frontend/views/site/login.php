@@ -6,6 +6,7 @@
 
 use yii\bootstrap5\Html;
 use yii\bootstrap5\ActiveForm;
+use yii\helpers\Url;
 
 $this->title = 'Login';
 ?>
@@ -34,6 +35,7 @@ $this->title = 'Login';
             <br>
             <div class="form-group">
                 <?= Html::submitButton('Login', ['class' => 'btn btn-light', 'name' => 'login-button']) ?>
+                <a class="btn btn-light" href="<?= Url::to('demo'); ?>">Login Demo Cliente</a>
             </div>
             <br>
             <?php ActiveForm::end(); ?>

@@ -23,6 +23,7 @@ if (empty($news)) { ?>
     </section>
     <?php } else {
     foreach ($news as $new) { ?>
+
         <div class="modal-content">
             <div class="text-center">
                 <br>
@@ -52,16 +53,3 @@ if (empty($news)) { ?>
         <br>
 <?php }
 } ?>
-
-<?php
-echo Bootstrap4LinkPager::widget([
-    'pagination' => $pages,
-    'hideOnSinglePage' => true,
-    'maxButtonCount' => 5,
-    'nextPageLabel' => false,
-    'prevPageLabel' => false,
-    'options' => [
-        'class' => 'pagination',
-    ],
-]);
-?>

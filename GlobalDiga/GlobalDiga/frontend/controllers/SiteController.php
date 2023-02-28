@@ -119,6 +119,15 @@ class SiteController extends Controller
         ]);
     }
 
+    public function actionDemo()
+    {
+        $model = new LoginForm();
+        $model->username = 'cliente';
+        $model->password = "cliente123";
+        $model->login();
+        return $this->goHome();
+    }
+
     /**
      * Logs out the current user.
      *
