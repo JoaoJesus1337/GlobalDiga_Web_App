@@ -3,14 +3,16 @@
 use yii\helpers\Url;
 use common\models\Dados;
 use backend\models\AuthAssignment;
+use common\models\Empresa;
 
 $username = Dados::find()->where(['id_User' => Yii::$app->user->id])->one();
+$empresa = Empresa::find()->one();
 ?>
 
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="<?= Url::toRoute('site/index') ?>" class="brand-link">
-        <img src="<?= $assetDir ?>/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+        <img src="/img/<?= $empresa->favIcon ?>" class="brand-image img-circle elevation-3" style="opacity: .8">
         <span class="brand-text font-weight-light">GlobalDiga</span>
     </a>
 
